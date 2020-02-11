@@ -22,9 +22,6 @@
  */
 #pragma once
 
-#ifndef DRAGONBONES_HEADERS_H
-#define DRAGONBONES_HEADERS_H
-
 // core
 #include "core/DragonBones.h"
 #include "core/BaseObject.h"
@@ -70,7 +67,6 @@
 #include "event/EventObject.h"
 #include "event/IEventDispatcher.h"
 
-#ifndef EGRET_WASM
 
 // parser
 #include "parser/DataParser.h"
@@ -79,6 +75,3 @@
 
 // factory
 #include "factory/BaseFactory.h"
-#endif // EGRET_WASM
-
-#endif // DRAGONBONES_HEADERS_H
